@@ -1,67 +1,46 @@
+aid: react-native
 name: React Native
-description: A framework for building native apps using React
+description: A framework for building native apps using React, enabling cross-platform mobile development for iOS and Android.
+type: Index
 image: https://reactnative.dev/img/logo-og.png
-url: https://reactnative.dev
-created: '2024-01-15'
-modified: '2024-01-15'
-specificationVersion: '0.16'
-apis:
-- name: React Native Core API
-  description: Core APIs and components for building React Native applications
-  image: https://reactnative.dev/img/logo-og.png
-  humanURL: https://reactnative.dev/docs/getting-started
-  baseURL: https://reactnative.dev
-  tags:
-  - Mobile
+url: https://raw.githubusercontent.com/api-evangelist/react-native/refs/heads/main/apis.yml
+tags:
+  - Mobile Development
+  - JavaScript
   - React
-  - Native
+  - Native Apps
+  - Cross-platform
   - iOS
   - Android
-  - Cross-platform
-  properties:
+created: '2024-01-15'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: react-native:react-native-core-api
+    name: React Native Core API
+    description: Core APIs and components for building React Native applications
+    humanURL: https://reactnative.dev/docs/getting-started
+    tags:
+      - Mobile
+      - React
+      - Native
+      - iOS
+      - Android
+      - Cross-platform
+    properties:
+      - type: Documentation
+        url: https://reactnative.dev/docs/getting-started
+common:
+  - type: Website
+    url: https://reactnative.dev/
   - type: Documentation
     url: https://reactnative.dev/docs/getting-started
-  - type: API Reference
-    url: https://reactnative.dev/docs/components-and-apis
-  - type: Tutorial
-    url: https://reactnative.dev/docs/tutorial
-  contact:
-  - FN: React Native Team
-    email: react-native@meta.com
-    X-twitter: reactnative
+  - type: Blog
+    url: https://reactnative.dev/blog
+  - type: Community
+    url: https://reactnative.dev/community/overview
+  - type: GitHubOrganization
+    url: https://github.com/facebook/react-native
 maintainers:
-- FN: Meta Open Source
-  email: opensource@meta.com
-  X-github: facebook
-tags:
-- Mobile Development
-- JavaScript
-- React
-- Native Apps
-- Cross-platform
-- iOS
-- Android
-include:
-- name: React Native Community APIs
-  url: https://github.com/react-native-community
-common:
-- type: GitHub Repository
-  url: https://github.com/facebook/react-native
-- type: Blog
-  url: https://reactnative.dev/blog
-- type: Community
-  url: https://reactnative.dev/community/overview
-- type: Showcase
-  url: https://reactnative.dev/showcase
-- type: Twitter
-  url: https://twitter.com/reactnative
-- type: Discord
-  url: https://discord.com/invite/reactnative
-- type: Stack Overflow
-  url: https://stackoverflow.com/questions/tagged/react-native
-- type: Release Notes
-  url: https://github.com/facebook/react-native/releases
-- type: Contributing Guide
-  url: https://github.com/facebook/react-native/blob/main/CONTRIBUTING.md
-- type: License
-  url: https://github.com/facebook/react-native/blob/main/LICENSE
+  - FN: Kin Lane
+    email: kin@apievangelist.com
