@@ -1,19 +1,17 @@
 aid: react-native
 name: React Native
-description: A framework for building native apps using React, enabling 
-  cross-platform mobile development for iOS and Android.
+description: A framework for building native apps using React, enabling cross-platform mobile development for iOS and Android.
 type: Index
 image: https://reactnative.dev/img/logo-og.png
-url: 
-  https://raw.githubusercontent.com/api-evangelist/react-native/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/react-native/refs/heads/main/apis.yml
 tags:
-  - Mobile Development
-  - JavaScript
-  - React
-  - Native Apps
-  - Cross-platform
-  - iOS
   - Android
+  - Cross-Platform
+  - iOS
+  - JavaScript
+  - Mobile Development
+  - Native Apps
+  - React
 created: '2024-01-15'
 modified: '2026-03-16'
 specificationVersion: '0.19'
@@ -24,12 +22,12 @@ apis:
       Core APIs and components for building React Native applications.
     humanURL: https://reactnative.dev/docs/getting-started
     tags:
-      - Mobile
-      - React
-      - Native
-      - iOS
       - Android
-      - Cross-platform
+      - Cross-Platform
+      - iOS
+      - Mobile
+      - Native
+      - React
     properties:
       - type: Documentation
         url: https://reactnative.dev/docs/getting-started
