@@ -1,0 +1,13 @@
+{
+  "repo": "react-native",
+  "feeds": [
+    {
+      "source": "https://reactnative.dev/blog",
+      "feed_url": "https://reactnative.dev/blog/rss.xml",
+      "saved": 10,
+      "title": "React Native Blog"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:34:26Z"
+}
