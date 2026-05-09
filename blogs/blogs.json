@@ -3,11 +3,11 @@
   "feeds": [
     {
       "source": "https://reactnative.dev/blog",
-      "feed_url": "https://reactnative.dev/blog/rss.xml",
-      "saved": 10,
-      "title": "React Native Blog"
+      "feed_url": "https://reactnative.dev/blog/feed/",
+      "title": "React Native Blog",
+      "saved": 0
     }
   ],
   "post_count": 10,
-  "fetched": "2026-05-03T23:34:26Z"
+  "fetched": "2026-05-09T20:17:51Z"
 }
