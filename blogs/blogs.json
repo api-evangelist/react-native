@@ -2,8 +2,8 @@
   "repo": "react-native",
   "feeds": [
     {
-      "source": "https://reactnative.dev/blog/feed/",
-      "feed_url": "https://reactnative.dev/blog/feed/",
+      "source": "https://reactnative.dev/blog/feed.xml",
+      "feed_url": "https://reactnative.dev/blog/feed.xml",
       "title": "",
       "saved": 0,
       "method": "feed"
@@ -17,5 +17,5 @@
     }
   ],
   "post_count": 29,
-  "fetched": "2026-06-01T23:35:02Z"
+  "fetched": "2026-06-14T20:42:17Z"
 }
