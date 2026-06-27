@@ -42,7 +42,7 @@ common:
     url: https://reactnative.dev/community/overview
   - type: GitHubOrganization
     url: https://github.com/facebook/react-native
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://reactnative.dev/llms.txt
 maintainers:
   - FN: Kin Lane
